@@ -119,3 +119,12 @@ const contato: Contato = {
     telefone1: '123456789',
     telefone2: '987456321'
 }
+
+// Type Assertion - Define o tipo de variável a partir daquele momento
+const minhaIdade: any = 37;
+(minhaIdade as number).toString; //o as number faz com que o autocomplete funcione
+// <number>minhaIdade.toString(); // outra forma de escrever
+
+const input = document.getElementById("numero") as HTMLInputElement; // como se fosse o casting do java
+// const input = <HTMLInputElement>document.getElementById("numero");  // outra forma de escrever
+console.log(input.value);
