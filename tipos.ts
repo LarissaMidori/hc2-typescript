@@ -77,3 +77,29 @@ function exibirNota(nota: number | string) {
 }
 exibirNota (10);
 exibirNota ('8');
+
+// Alias
+type Funcionario = {
+    nome: string;
+    sobrenome: string;
+    dataNascimento: Date;
+}
+
+const funcionario: Funcionario[] = [
+{
+    nome: 'Ryan',
+    sobrenome: 'Whitaker',
+    dataNascimento: new Date()
+},
+{
+    nome: 'Hillary',
+    sobrenome: 'Smith',
+    dataNascimento: new Date()
+}
+];
+
+function tratarFuncionarios(funcionario:Funcionario[]) {
+    for(let funcionarios of funcionario) {
+        console.log('Nome do funcionário:' , funcionarios.nome)
+    }
+}
