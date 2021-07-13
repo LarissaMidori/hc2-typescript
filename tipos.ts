@@ -54,3 +54,5 @@ criar({
     propriedade: 1,
 })
 //criar('Keith') // Dá erro
+
+// Never
