@@ -6,3 +6,4 @@ Conhecendo o Typescript:
 - Type Alias;
 - Valores Nulos ou Opcionais;
 - Type Assertion;
+- Interface
