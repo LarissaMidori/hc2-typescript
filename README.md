@@ -4,3 +4,4 @@ Conhecendo o Typescript:
 - Tipo never
 - Union type (Múltiplos tipos)
 - Type Alias
+- Valores Nulos ou Opcionais
