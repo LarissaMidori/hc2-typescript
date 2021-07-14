@@ -1,3 +1,5 @@
+Hiring Coders 2
+
 Conhecendo o Typescript:
 
 - Tipos;
@@ -7,4 +9,6 @@ Conhecendo o Typescript:
 - Valores Nulos ou Opcionais;
 - Type Assertion;
 - Interfaces;
-- Classes
+- Classes;
+- Utilizando Modificadores de Acesso;
+- Herança.
